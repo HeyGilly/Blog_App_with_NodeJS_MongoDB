@@ -12,7 +12,11 @@
 
 
 ## Key Features
-* 
+* Users can register with their credentials
+* Navigation bar will change depending on the user being logged in or out. 
+* A button where the user can create a new blog post
+* When posting a new blog post the user will be able to upload images
+* Blog entries will be posted on the HOmepage with the username and date posted
 
 
 ## Credits
