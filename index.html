@@ -17,7 +17,7 @@
 <body>
 
     <!---Navigation--->
-    <nav class="navbar navbar-expand-lg navbar-light shadow shadow-lg rounded" id="mainNavBar">
+    <nav class="navbar navbar-expand-lg navbar-light shadow shadow-lg rounded p-0 m-0" id="mainNavBar">
         <div class="container px-4 px-lg-5">
             <!--Logo-->
             <a class="navbar-brand" href="#">SpeakOut</a>
@@ -40,20 +40,62 @@
 
 
     <!---Header--->
-    <header class="container-fluid">
-        <div class="container">
-            <h1 class="fw-bold">Clean Blog</h1>
-            <span class="subheading">A Blog Theme by Start Bootstrap</span>
+    <header class="container-fluid bg-dark p-4 p-md-5">
+        <div class="container py-5 my-5 text-light">
+            <h1 class="fw-bold fst-italic display-3">Welcome to Everyday Blog</h1>
+            <span class="subheading lead ms-2">A blog is a conversation. People go to blogs to read and write, not just consume.</span>
         </div>
     </header>
 
 
+    <!-- MAIN Section -->
+    <main class="d-flex justify-content-center py-5">
+        <div class="col-10 col-lg-8 col-xl-7 border border-2 row g-0 rounded shadow-lg">
+            <aside class="col p-4 d-flex flex-column position-static">
+                <!--Topic Header-->
+                <small class="d-inline-block mb-2 text-primary">World</small>
+                <!--Title Post-->
+                <a href="#">
+                    <h4 class="post-title">Man must explore, and this is exploration at its greatest.</h4>
+                </a>
+                <!--Date Posted-->
+                <small class="post-meta text-muted">
+                    By
+                    <a href="#!" class="text-decoration-none">HeyGilly</a>
+                    on September 24, 2022
+                </small>
+                <!-- Text -->
+                <p class="card-text mb-auto post-subtitle border p-1">
+                    The circle of his friends, indeed, at this time was extensive and various, far beyond what has been generally imagined. To trace his acquaintance with each particular person, if it could be done, would be a task, of which the labour would not be repaid by the advantage.
+                </p>
+            </aside>
+            <aside class="col-auto d-none d-md-block">
+                <img src="https://dummyimage.com/200x300/412fde/1e28b3.png" alt="...">
+            </aside>
+        </div>
+    </main>
 
 
 
+    <div class="d-flex justify-content-end mb-4 container">
+        <a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a>
+    </div>
 
-
-
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <section class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-muted"> 2023 HeyGilly</span>
+            </section>
+            <section class="nav col-md-4 justify-content-end d-flex">
+                <a class="text-muted" href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                <a class="text-muted mx-2" href="#"><i class="fa-brands fa-instagram" height="500px"></i></a></li>
+                <a class="text-muted" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            </section>
+        </footer>
+    </div>
 
 
 
