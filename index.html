@@ -27,71 +27,83 @@
                 <i class="fas fa-bars"></i>
             </button>
             <!-- Anchors -->
-            <section class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="">Home</a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="">About</a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="">Sample Post</a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="">Contact</a></li>
-                </ul>
-            </section>
+            <aside class="collapse navbar-collapse" id="navbarResponsive">
+                <section class="navbar-nav ms-auto py-4 py-lg-0">
+                    <a class="nav-link px-lg-3 py-3 py-lg-4" href="">Home</a>
+                    <a class="nav-link px-lg-3 py-3 py-lg-4" href="">About</a>
+                    <a class="nav-link px-lg-3 py-3 py-lg-4" href="">Sample Post</a>
+                    <a class="nav-link px-lg-3 py-3 py-lg-4" href="">Contact</a>
+                </section>
+            </aside>
         </div>
     </nav>
 
 
     <!---Header--->
     <header class="container-fluid bg-dark p-4 p-md-5">
+        <!-- container -->
         <div class="container py-5 my-5 text-light">
+            <!-- Header -->
             <h1 class="fw-bold fst-italic display-3">Welcome to Everyday Blog</h1>
+            <!-- sub header -->
             <span class="subheading lead ms-2">A blog is a conversation. People go to blogs to read and write, not just consume.</span>
         </div>
     </header>
 
 
-    <!-- MAIN Section -->
-    <main class="d-flex justify-content-center py-5">
-        <div class="col-10 col-lg-8 col-xl-7 border border-2 row g-0 rounded shadow-lg">
-            <aside class="col p-4 d-flex flex-column position-static">
+    <!--Main Section-->
+    <main class="border border-danger border-5 py-5">
+        <!-- Card Body -->
+        <div class="col-10 col-lg-8 col-xl-6 border mx-auto border-2 row g-0 rounded-3 shadow-lg my-2">
+            <!-- Left Section -->
+            <aside class="col p-4 d-flex flex-column">
                 <!--Topic Header-->
                 <small class="d-inline-block mb-2 text-primary">World</small>
                 <!--Title Post-->
-                <a href="#">
+                <a href="#" class="text-decoration-none me-4">
                     <h4 class="post-title">Man must explore, and this is exploration at its greatest.</h4>
                 </a>
                 <!--Date Posted-->
-                <small class="post-meta text-muted">
+                <small class="post-meta text-muted ps-1">
                     By
                     <a href="#!" class="text-decoration-none">HeyGilly</a>
                     on September 24, 2022
                 </small>
                 <!-- Text -->
-                <p class="card-text mb-auto post-subtitle border p-1">
-                    The circle of his friends, indeed, at this time was extensive and various, far beyond what has been generally imagined. To trace his acquaintance with each particular person, if it could be done, would be a task, of which the labour would not be repaid by the advantage.
+                <p class="card-text mb-auto post-subtitle p-1 mt-2 me-md-5">
+                    The circle of his friends, indeed, at this time was extensive and various, far beyond what has been generally imagined. To trace his acquaintance with each particular person, if it could be done, would be a task...
                 </p>
             </aside>
+            <!-- Right Section -->
             <aside class="col-auto d-none d-md-block">
-                <img src="https://dummyimage.com/200x300/412fde/1e28b3.png" alt="...">
+                <!-- Image -->
+                <img src="https://dummyimage.com/200x300/412fde/1e28b3.png" class="p-0 m-0 g-0 rounded-end">
             </aside>
         </div>
     </main>
 
-
-
+    <!-- Button Section for Older Post -->
     <div class="d-flex justify-content-end mb-4 container">
+        <!-- Button -->
         <a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a>
     </div>
 
+    <!-- Footer Section-->
     <div class="container">
+        <!-- Footer -->
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <!-- Left Side -->
             <section class="col-md-4 d-flex align-items-center">
-                <a href="/" class="mb-3 mb-md-0 text-muted text-decoration-none lh-1">
-                    <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
-                </a>
+                <!-- Name -->
                 <span class="mb-3 mb-md-0 text-muted"> 2023 HeyGilly</span>
             </section>
+            <!-- Right Side -->
             <section class="nav col-md-4 justify-content-end d-flex">
+                <!-- Facebook -->
                 <a class="text-muted" href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                <!-- Instagram -->
                 <a class="text-muted mx-2" href="#"><i class="fa-brands fa-instagram" height="500px"></i></a></li>
+                <!-- Linkedin -->
                 <a class="text-muted" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
             </section>
         </footer>
